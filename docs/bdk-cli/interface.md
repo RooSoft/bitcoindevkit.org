@@ -235,7 +235,7 @@ So if we write down all the possible outcomes when we combine them, we get:
 
 In other words:
 
-* If we choose option #1, the final transaction will need to have the `nSequence` of its inputs set to a value greather than or equal to 6, but the `nLockTime` can stay at 0.
+* If we choose option #1, the final transaction will need to have the `nSequence` of its inputs set to a value greater than or equal to 6, but the `nLockTime` can stay at 0.
 * If we choose option #2, the final transaction will need to have its `nLockTime` set to a value greater than or equal to 630,000, but the `nSequence` can be set to a final value.
 * If we choose option #3, both the `nSequence` and `nLockTime` must be set.
 
